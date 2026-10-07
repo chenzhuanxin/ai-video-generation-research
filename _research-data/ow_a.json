@@ -1,0 +1,246 @@
+{
+  "region": "overseas",
+  "generated_at": "2026-10-07",
+  "products": [
+    {
+      "name": "OpenAI Sora",
+      "name_en": "Sora (Sora 2 / Sora 2 Pro)",
+      "developer": "OpenAI",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强", "数字人视频"],
+      "type_note": "独立 App + Web 的社交化视频生成产品（含 remix 二次创作与 Cameo 数字人角色），已于 2026-04-26 全面关停。",
+      "status": "已关闭",
+      "score": 8.8,
+      "score_range": "8.5–9.2",
+      "score_basis": "历史能力评分（产品已关停、当前不可用，非在售评分）。Sora 2 于 2025-09-30 发布时在 Artificial Analysis 文生视频（含音频）榜位列前列（Elo 约 1,206，第 7 位），官方强调物理一致性、原生音画同步对白与音效；科技媒体与创作者社区普遍将其与 Google Veo 并列为当时第一梯队（锚点定义中即把 Sora 作为 9+ 参照）。但 OpenAI 于 2026-03-24 宣布关停、2026-04-26 下线 Web/App、2026-09-24 下线 API，且官方无继任产品，故按“曾达前沿、现已整体退出”给 8.8。",
+      "official_url": "https://openai.com/index/sora-2/",
+      "url_note": "已实际访问 openai.com/index/sora-2/：页面标题为《Sora 2 发布》，正文显著位置标注“Sora 产品已于 2026 年 4 月 26 日正式关停”；sora.com / sora.chatgpt.com 已返回 403 不可用。",
+      "free_quota": "不适用（产品已关停，无免费额度）。关停前口径：ChatGPT Plus 约 1,000 credits/月、ChatGPT Pro 约 10,000 credits/月；Sora 2 生成 10 秒视频约消耗 10 credits、15 秒约 20 credits。",
+      "price": "不适用（产品已关停，无在售价格）。关停前：ChatGPT Plus $20/月（约合 ¥142）、ChatGPT Pro $200/月（约合 ¥1,420）内含 Sora 额度；API 侧 sora-2-pro 720p 为 $0.30/秒、1024p 为 $0.50/秒。",
+      "features": "原生音画同步对白与音效、物理拟真（投篮不中会真实弹框）、Cameo/“角色”数字人植入本人形象与声音、社交 feed 与 remix 二创生态。",
+      "limitations": "已于 2026-04-26 全面关停，API 于 2026-09-24 下线；官方确认无继任产品（无 Sora 3）；据媒体报道关停主因是单位经济性（推理成本高、留存与收入不匹配）。",
+      "sources": [
+        {"type": "官方站点", "label": "OpenAI《Sora 2 is here》", "url": "https://openai.com/index/sora-2/"},
+        {"type": "官方站点", "label": "OpenAI《Creating with Sora safely》", "url": "https://openai.com/index/creating-with-sora-safely/"},
+        {"type": "官方站点", "label": "OpenAI《Launching Sora responsibly》", "url": "https://openai.com/index/launching-sora-responsibly/"},
+        {"type": "科技媒体", "label": "Read Us 24x7《What Happened to Sora? App Gone, API Ends 24 September》", "url": "https://readus247.com/what-happened-to-sora/"},
+        {"type": "用户社区/评测", "label": "AIToolTier《Sora (Discontinued)》", "url": "https://aitooltier.com/tools/sora"}
+      ]
+    },
+    {
+      "name": "Google Veo",
+      "name_en": "Veo 3.1 (Google DeepMind)",
+      "developer": "Google DeepMind",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强", "数字人视频"],
+      "type_note": "模型级能力（非独立 App），通过 Gemini App、Google Flow、Google Vids、Gemini API / Vertex AI 等入口提供。",
+      "status": "公开可用",
+      "score": 9.1,
+      "score_range": "8.8–9.4",
+      "score_basis": "Google DeepMind 官方称 Veo 3.1 在 MovieGenBench 的 T2V 总体偏好 / 文本对齐 / 视觉质量、VBench I2V 偏好、T2VA 音画同步与“真实物理”等多个用人类评估的头部对比中领先（页面标注 Last updated October 2025）。第三方榜单 Elo 约 1,209–1,216，长期处于 Artificial Analysis 文生视频前列；媒体评测称其为“唯一单次生成即带原生音画与口型同步”的模型。社区（Reddit 汇总）认为其“幻觉/物体形变”少于竞品，但批评 3.1 相对 3.0 提升有限、价格偏贵。",
+      "official_url": "https://deepmind.google/models/veo/",
+      "url_note": "已实际访问 deepmind.google/models/veo/（HTTP 200，页面标题“Veo 3.1 — Google DeepMind”）；另实际抓取两处 Google 官方文档并核对成功：support.google.com/gemini/answer/16275805（订阅档位视频额度表，标题《Gemini Apps limits & upgrades for Google AI subscribers》）与 docs.cloud.google.com 的《Veo 3.1》模型页（Last updated 2026-10-01，列 veo-3.1-generate-001 / veo-3.1-fast-generate-001 均为 GA、发布于 2025-11-17；veo-3.1-lite-generate-001 为 Preview、发布于 2026-04-02）。",
+      "free_quota": "Gemini 免费版无视频生成；Google Vids 对任意 Google 账号每月 10 次免费 Veo 3.1 生成（每月）；Google AI Plus 每日最多 2 条（Veo 3.1 Lite）；Google AI Pro 每日最多 3 条（Veo 3.1 Lite）；Google AI Ultra 每日最多 5 条（Veo 3.1 Pro）；以上每日额度于每天 0:00 PT 重置。Google AI Pro 另含每月 1,000 AI credits（Veo 3.1 Fast 约 10 credits/条、Veo 3.1 Quality 约 100 credits/条）。",
+      "price": "Google AI Plus $7.99/月（约合 ¥57）；Google AI Pro $19.99/月（约合 ¥142）；Google AI Ultra 自 $99.99/月起（5x 档），主力 20x 档已于 2026-05 由 $250 降至 $200/月（约合 ¥1,420）。API 侧 Veo 3.1 约 $0.15–0.40/秒（第三方汇总，官方 Cost 页未逐一核对，待确认）。",
+      "features": "原生音画一次生成（对白 + 音效 + 环境声）、文生视频/图生视频/首尾帧、outpainting 场景延展（Extend videos）、对象插入与对象路径运动控制、“Ingredients to Video”风格参考；官方 API 规格：单段可选 4/6/8 秒、单次最多 4 条、24 FPS、输出可达 4K、支持 9:16 与 16:9。",
+      "limitations": "单段时长上限 8 秒（官方 API 规格为 4/6/8 秒，远短于 Kling 等多分钟模型）；输出强制嵌入 SynthID 不可见水印；内容策略较严；官方自述“短语音的语音同步仍是活跃开发方向”；社区反映订阅制 + credits 双轨导致成本口径不直观；Veo 3.1 相对 Veo 3 的提升被部分社区评测认为“不明显、价格偏贵”。",
+      "sources": [
+        {"type": "官方站点", "label": "Google DeepMind《Veo 3.1》模型页", "url": "https://deepmind.google/models/veo/"},
+        {"type": "官方站点", "label": "Google 支持《Gemini Apps limits and upgrades for Google AI subscribers》", "url": "https://support.google.com/gemini/answer/16275805?hl=en-MK"},
+        {"type": "官方站点", "label": "Google Cloud《Veo 3.1》模型文档", "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate"},
+        {"type": "科技媒体", "label": "ThePlanetTools《Veo 3.1》评测", "url": "https://theplanettools.ai/tools/veo-3-1"},
+        {"type": "用户社区/评测", "label": "Vidwave《Top AI Video Tools According to Reddit Communities 2026》", "url": "https://vidwave.ai/top-ai-video-tools-according-to-reddit-communities-2026"}
+      ]
+    },
+    {
+      "name": "Runway",
+      "name_en": "Runway (Gen-4.5 / Aleph 2.0)",
+      "developer": "Runway AI, Inc.",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "Web 端综合创作平台（模型 + Director Mode/Motion Brush/Act-Two 等编辑套件），另有 Dev API 与 MCP。",
+      "status": "公开可用",
+      "score": 8.7,
+      "score_range": "8.4–9.0",
+      "score_basis": "Gen-4.5（2025-12-01 发布）发布时官方称在 Artificial Analysis 文生视频榜以 Elo 1,247 登顶；独立评测在盲目对比中认为其在运动一致性、指令遵循与物理真实感上优于同级，并把 Motion Brush / Director Mode 视为唯一的“可导演式二次打磨”。但它画面写实度略逊 Veo 3.1（同一评测给 Runway 8.5/10 vs Veo 9.5/10），且社区口碑明显分化——Trustpilot 仅约 1.2/5，集中投诉 credits 消耗过快、退款与内容审核。综合给 8.7。",
+      "official_url": "https://runway.com/",
+      "url_note": "已实际访问 runway.com/pricing 与 runway.com/changelog：定价页确认 Free/Standard/Pro/Max 四档与 credits 口径；changelog 确认 Gen-4.5 于 2025-12-04 上线全付费计划（研究页标注发布日 2025-12-01）。",
+      "free_quota": "一次性 125 credits（注册一次性发放、不按月重置、不过期），可使用部分生成模型（Gen-4 等），输出带水印；Standard 及以上不续期之外另有月度额度。",
+      "price": "Standard $15/月（年付 $12/月，约合 ¥85），625 credits/月；Pro $35/月（年付 $28/月，约合 ¥199），2,250 credits/月；Max $95/月（年付 $76/月，约合 ¥540），9,500 credits/月且可结转 1 个月。Gen-4.5 计费为 12 credits/秒（5 秒约 60 credits）。另有 Dev API 按量计费（约 $0.12/秒起）。",
+      "features": "Gen-4.5 支持首帧图生视频、多镜头、角色一致性，另提供 Aleph 2.0 视频重写、Act-Two 表演捕捉、Motion Brush 区域运镜；同一工作区聚合第三方模型（Seedance 2.5、Kling 3.0、Nano Banana Pro 等），并有 4K 升采样、Runway MCP 与 Dev API。",
+      "limitations": "credits 消耗快、免费 125 credits 不续期，试错成本高；原生分辨率上限 1080p（4K 为升采样）；原生音频能力上线晚于 Veo；社区对退款/客服/账号封停投诉集中（Trustpilot 约 1.2/5）。",
+      "sources": [
+        {"type": "官方站点", "label": "Runway Pricing", "url": "https://runway.com/pricing"},
+        {"type": "官方站点", "label": "Runway Changelog", "url": "https://runway.com/changelog"},
+        {"type": "官方站点", "label": "Runway《Runway Gen-4.5: State-of-the-Art AI Video Generation》", "url": "https://runway.com/research/introducing-runway-gen-4.5"},
+        {"type": "科技媒体", "label": "AIInsiders《Runway Review: Great Models, Brutal Credit Math》", "url": "https://www.aiinsiders.net/tools/reviews/runway"},
+        {"type": "用户社区/评测", "label": "RFP.wiki《Runway - Reviews》（汇总 Trustpilot 1.2 等评分）", "url": "https://www.rfp.wiki/artificial-intelligence/runway"}
+      ]
+    },
+    {
+      "name": "Luma AI",
+      "name_en": "Luma Dream Machine (Ray3.2 / Ray3.14)",
+      "developer": "Luma AI",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "Dream Machine 消费级产品，已并入以 Luma Agents 为核心的一体化创作平台（同时接入 Veo 3、Kling 2.6、GPT Image 1.5 等第三方模型）。",
+      "status": "公开可用",
+      "score": 8.3,
+      "score_range": "8.0–8.6",
+      "score_basis": "自研 Ray3 系列主打“推理式”视频生成，Ray3.14（2026-01-26）带来原生 1080p、16-bit HDR 与 4 倍提速，Ray3.2（2026-06-09）被官方文档列为当前模型；Business Wire 官方稿强调其在动画、视频改写与电影感的时序稳定性领先。评测汇总将其排在 Kling 之后、位列第一梯队末段（例：某评测给 8.9/10）；App Store 约 4.5/5（1,776 条评分），用户称赞图生视频“人物面部一致性最佳”“物理感强”，但集中抱怨约 5 秒时长限制与延长后背景伪影。综合给 8.3。",
+      "official_url": "https://lumalabs.ai/",
+      "url_note": "lumalabs.ai 主域与 /dream-machine、/dream-machine/pricing 两个路径均返回“site not supported for access”，无法直接抓取正文；官网域名与产品归属经多源交叉确认，并已核验 Luma 官方 iOS App 页面（App Store id6478852867）与 Business Wire 官方新闻稿。定价/额度细节标注“待确认”。",
+      "free_quota": "口径不一致，待确认：多个第三方汇总称免费档为“每日少量 credits、720p、带水印”（约合每月 8–30 条草稿质量输出）；另有来源称 iOS 免费档为 250 credits/月；也有来源称 2026 年中已取消永久免费档、仅保留注册试用 credits。官方定价页未能直接核验。",
+      "price": "Plus $30/月（年付 $25/月，约合 ¥178），10,000 credits/月；Pro $90/月（年付 $75/月，约合 ¥533），40,000 credits/月；Ultra $300/月（年付 $250/月，约合 ¥1,775），150,000 credits/月。团队/企业档为定制报价。",
+      "features": "Ray3 系列推理式生成、原生 1080p 与 16-bit HDR、Modify 视频改写（可延展至约 18 秒）、首尾帧控制、Character Reference 角色一致性、Draft Mode 快速迭代、扩展至 4K up-res。",
+      "limitations": "单段原生时长偏短（约 5 秒，延长后约 18 秒）；延长时背景易出现伪影；免费额度口径不透明且可能已取消永久免费档；Ray3.14 相对 Ray3 精简掉了 Character Reference 与 HDR/EXR。",
+      "sources": [
+        {"type": "官方新闻稿（由 Luma AI 发布，Business Wire 托管，非 lumalabs.ai 域）", "label": "Luma AI 官方新闻稿《Luma AI Launches Ray3.14》", "url": "https://www.businesswire.com/news/home/20260126744711/en/Luma-AI-Launches-Ray3.14-Eliminating-Quality-Speed-Cost-Tradeoff-in-Generative-Video"},
+        {"type": "应用商店", "label": "Luma Dream Machine — App Store 官方应用页（Apple 域）", "url": "https://apps.apple.com/cn/app/luma-dream-machine/id6478852867"},
+        {"type": "科技媒体", "label": "GenMediaLab《Luma AI Ray3.14: Native 1080p, 4x Faster, 3x Cheaper》", "url": "https://www.genmedialab.com/news/luma-ai-ray314-native-1080p-launch/"},
+        {"type": "用户社区/评测", "label": "Tooliverse《Luma Dream Machine Review 2026》（含用户原声）", "url": "https://tooliverse.ai/tools/luma-dream-machine"}
+      ]
+    },
+    {
+      "name": "Pika",
+      "name_en": "Pika (Pika 2.5)",
+      "developer": "Pika Labs",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "Web + iOS 创意视频平台；2026-09-17 起 pika.art 重构为多模型工作室（Pika 2.5、Seedance 2.5、MiniMax H3、Wan 3.0 等）。",
+      "status": "公开可用",
+      "score": 7.3,
+      "score_range": "7.0–7.7",
+      "score_basis": "Pika 2.5（2026 年初）把分辨率提升至原生 1080p、强化提示遵循与镜头语言，Pikaffects 特效（融化/爆炸/膨胀/压扁）是竞品尚未复制的差异化卖点；出片速度快（多数片段 <30 秒）。但第三方评测普遍认为画质、物理拟真与电影感明显低于 Veo/Runway/Kling 一档（Synthesia 实测称其“缺乏深度、物理简化、不适合电影级或商用级输出”），且不支持原生音频。口碑分化明显：一个评测给 8.0/10，而 Trustpilot 仅约 1.6/5（55 条中 86% 一星，集中投诉计费、退订摩擦与客服）。综合给 7.3。",
+      "official_url": "https://pika.art/",
+      "url_note": "已实际访问 pika.art/pricing：免费档显示 $0、0 credits/月（仅 credit packs）、含全部模型但无商用授权；Starter/Creator/Fancy 三档价格与 credits 均已核到。注意：pikaslabs.com、pika-labs-ai.com 并非官方域名（SEO/联盟站），其“免费送 150 credits/月”的说法与官网冲突。App Store 官方应用页（id6680155400）另行核验。",
+      "free_quota": "官方 pika.art 定价页口径：Free 计划 $0，月度 credits 为 0（“packs only”，只能按 60 credits/$1 购买一次性 credit packs），可使用全部模型、无水印、2 路并行生成，但无商用授权；新用户注册赠少量测试 credits（具体数额待确认）。第三方站点称“150 credits/月”，与官网冲突，标“待确认”。",
+      "price": "Starter $10/月（年付 $8/月，约合 ¥57），900 credits/月；Creator $35/月（年付 $28/月，约合 ¥199），3,150 credits/月并含商用授权；Fancy $95–880/月（年付 $76–704），8,550 credits 起、无限并行、优先队列。Credit packs：3,000 credits $50 起，60 credits/$1。",
+      "features": "Pikaffects 特效库（27 种超现实物理变换）、Pikaframes 关键帧长片段工作流、Pikaformance 表演驱动、AI Powers 编辑/风格/特效层、场景延展至约 25 秒、跨模型选择（Seedance 2.5 / Wan 3.0 / Nano Banana 2 / GPT Image 2.5）与 API/MCP。",
+      "limitations": "无原生音频生成；画质、物理与电影感落后第一梯队；提示遵循偶有忽略（社区/G2 投诉“要求保持不变仍被改动”）；平台从自研单一模型转向多模型聚合，自有模型竞争力被稀释；计费与退订体验口碑差（Trustpilot 约 1.6/5）。",
+      "sources": [
+        {"type": "官方站点", "label": "Pika Pricing（pika.art）", "url": "https://pika.art/pricing"},
+        {"type": "应用商店", "label": "Pika - AI Video — App Store 官方应用页（Apple 域）", "url": "https://apps.apple.com/cn/app/pika-ai-video/id6680155400"},
+        {"type": "科技媒体", "label": "Synthesia《The 18 Best AI Video Generators in 2026 (Tried & Tested)》", "url": "https://www.synthesia.io/post/best-ai-video-generators"},
+        {"type": "用户社区/评测", "label": "ThePlanetTools《Pika》评测（含 Trustpilot 1.6/5 汇总）", "url": "https://theplanettools.ai/tools/pika"}
+      ]
+    },
+    {
+      "name": "Stability AI",
+      "name_en": "Stability AI (Stable Video Diffusion / SVD)",
+      "developer": "Stability AI Ltd.（CEO Prem Akkaraju，2024-06 资本重组后上任）",
+      "type": ["图生视频", "视频编辑·延展·增强"],
+      "type_note": "无托管消费级视频产品：SVD/SVD-XT 仅提供开源权重自托管；另有 Stable Video 4D 2.0 与 Stable Virtual Camera（研究预览）。",
+      "status": "公开可用（仅自托管）；公司已完成资本重组并恢复运营",
+      "score": 6.0,
+      "score_range": "5.5–6.5",
+      "score_basis": "SVD（2023-11 首发）是开源图生视频的奠基模型，但权重自 SVD-XT 1.1（2024-02）起未再更新，托管 Stable Video API 已于 2025-07-24 停用，现仅余开源自托管；同行评测明确指出其已被 Wan、HunyuanVideo-I2V、LTX-Video 等开源模型超越，仅余“低显存（8–16GB）快速预览/微调实验”等窄场景价值（ChatForest、comparebestai 2026 年评测）。公司层面已完成反转：2024-06 完成资本重组（新任 CEO Prem Akkaraju），2026-08 完成 Series B 融资 7,600 万美元、累计融资约 2.32 亿美元（Electronic Arts、索尼音乐、环球音乐、华纳音乐等娱乐行业方参投），估值约 10 亿美元，并赢得与 Getty Images 的英国高院版权诉讼（2025-11）。产品能力弱、公司基本面改善，故给 6.0。",
+      "official_url": "https://stability.ai/",
+      "url_note": "已实际访问 stability.ai/news-updates：确认 2026-08-25《The Entertainment Industry's Biggest Names Back Stability AI in Latest Funding Round》条目（该轮为 Series B 融资 7,600 万美元，原文表述为“closed our Series B, bringing total funding to $232M”，即 2.32 亿美元为累计融资额而非本轮金额）；另核验 stability.ai/core-models（列 SVD 14-frame / 25-frame / 1.1）与官方知识库 kb.stability.ai 说明——该知识库明确“SVD API 自 2025-07-24 正式停用，仅可通过自托管继续使用”。",
+      "free_quota": "模型权重在 Hugging Face 免费下载；Stability 社区许可下研究与非商用免费，年营收低于 100 万美元的企业可在社区许可下商用；无任何线上/托管免费额度。",
+      "price": "无 SaaS 视频订阅，软件价格 $0（约合 ¥0，社区许可下免费下载权重）。SVD API 已停用，仅自托管：托管 Stable Video API 于 2025-07-24 正式停用（不再计费），官方现仅提供自托管路径；自托管实际成本为云 GPU 租用费，约为 $0.5–2/小时（约合 ¥3.5–14/小时，依 A100/RTX 4090 等卡型而定，具体单价待核算），本地部署则需自备约 16GB 显存级显卡。企业商用许可为定制报价（待确认）。",
+      "features": "仅以开源权重形态提供：SVD / SVD-XT 1.1 图生视频权重（14 帧与 25 帧两种引擎，可微调、可离线、可商用社区许可），需自托管运行；Stable Video 4D 2.0 从单段物体视频生成 4D 新视角资产；Stable Virtual Camera 以 3D 相机控制做多视角视频生成（研究预览）。无托管 API、无在线生成入口。",
+      "limitations": "SVD API 已于 2025-07-24 停用，不再提供任何托管的视频产品或 API，仅余开源自托管，用户须自行部署（CUDA/PyTorch/Diffusers）；模型代次停留在 2023–2024 年，画面质量与运动一致性已被开源竞品全面超越；公司战略重心已转向企业级图像（SD3.5 NIM）与音频（Stable Audio 3.0）。",
+      "sources": [
+        {"type": "官方站点", "label": "Stability AI News & Updates（2026-08-25 Series B 融资 7,600 万美元、累计融资 $232M）", "url": "https://stability.ai/news-updates/"},
+        {"type": "官方站点", "label": "Stability AI Core Models（列 SVD 系列）", "url": "https://stability.ai/core-models"},
+        {"type": "官方站点", "label": "Stability AI 知识库《How to Access Stable Video Diffusion》", "url": "https://kb.stability.ai/knowledge-base/how-to-access-stable-video-diffusion"},
+        {"type": "科技媒体", "label": "ChatForest《Stable Video Diffusion Review》", "url": "https://chatforest.com/reviews/stable-video-diffusion-stability-ai-image-to-video-foundational-i2v/"},
+        {"type": "用户社区/评测", "label": "RECATOOLS《Stable Video Diffusion》（含 500k+ 用户与社区使用描述）", "url": "https://recatools.com/ai-directory/stable-video-diffusion/"}
+      ]
+    },
+    {
+      "name": "Adobe Firefly Video",
+      "name_en": "Adobe Firefly Video Model",
+      "developer": "Adobe",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "Firefly 网页/移动端的自有视频模型“Firefly Video”，并与 Premiere Pro、Adobe Express 深度集成；同一界面可选用 Kling/Ray/Seedance/Veo 等合作方模型。",
+      "status": "公开可用",
+      "score": 7.6,
+      "score_range": "7.2–8.0",
+      "score_basis": "核心竞争力是“商用安全”（模型仅以授权 Adobe Stock 与公共领域素材训练，并提供企业级 indemnification），以及唯一能把生成式延展直接落在 Premiere Pro 时间线（Generative Extend，4K 30fps 175 credits/秒）的工作流。第三方评测明确其为“专业创作者与企业的商用安全之选”，但自有模型输出仅 5 秒 / 1080p，画质低于 Veo 3.1 与 Runway Gen-4.5 一档（属于先行概念与补 B-roll 的定位）。社区评分中等偏好：TrustRadius 8.3/10（280 条）、SelectHub 用户情绪 85 分（269 条）。综合给 7.6。",
+      "official_url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "url_note": "已实际访问 adobe.com/products/firefly/features/ai-video-generator.html 与 adobe.com/products/firefly/plans.html（后者价格以模板变量渲染，另行从 Adobe 官方 plans FAQ 片段核到 USD 原价）；并核验 Adobe Help Center 生成式 credits FAQ 中“Generate Video 1080p/24fps = 100 credits/秒、Premiere Generative Extend 4K/30fps = 175 credits/秒”的官方口径。",
+      "free_quota": "Adobe Firefly 免费计划含有限的每日生成额度（具体每日条数官方未在已核验页面给出，标“待确认”）；标准图像功能在付费档下不扣 credits，视频生成按秒扣 credits（1080p/24fps 为 100 credits/秒）。",
+      "price": "Firefly Standard $9.99/月（约合 ¥71），2,000 credits/月（约 20 条 5 秒视频）；Firefly Pro $19.99/月（约合 ¥142），4,000 credits/月（约 40 条）；Firefly Pro Plus $49.99/月（约合 ¥355），10,000 credits/月（约 100 条）；Firefly Premium $199.99/月（约合 ¥1,420），50,000 credits/月且不限量使用 Firefly Video Model。另有 2,000/4,000/7,000/50,000 credits 的加购包。",
+      "features": "商用安全的自有 Firefly Video 模型、1080p 文生/图生视频（5 秒）、生成式延展 Generative Extend（Premiere Pro 内直接补帧/延长镜头）、与 Photoshop/Express/Firefly Boards 同一账号体系打通、同一工作流调用 Veo/Kling/Ray/Seedance/Gemini Omni 等合作方模型。",
+      "limitations": "自有模型单段仅 5 秒、上限 1080p，画质明显落后第一梯队；视频生成 credits 单价高（100 credits/秒），高档位月度成本高；免费档的每日额度不透明；真正的高质量输出往往要依赖其接入的第三方模型，Adobe 自有模型存在感被稀释。",
+      "sources": [
+        {"type": "官方站点", "label": "Adobe Firefly AI 视频生成器产品页", "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html"},
+        {"type": "官方站点", "label": "Adobe《Compare Firefly plans》", "url": "https://www.adobe.com/products/firefly/plans.html"},
+        {"type": "官方站点", "label": "Adobe Help Center《Generative credits FAQ》", "url": "https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html"},
+        {"type": "科技媒体", "label": "TechPilot《5 Best AI Video Generators for Business in 2026》", "url": "https://techpilot.ai/5-best-ai-video-generators-for-business/"},
+        {"type": "用户社区/评测", "label": "TrustRadius《Adobe Firefly Reviews & Insights》", "url": "https://www.trustradius.com/products/adobe-firefly/reviews"}
+      ]
+    },
+    {
+      "name": "Meta Movie Gen",
+      "name_en": "Meta Movie Gen",
+      "developer": "Meta",
+      "type": ["文生视频", "视频编辑·延展·增强", "数字人视频"],
+      "type_note": "2024-10 发布的研究级模型族（Movie Gen Video + Movie Gen Audio），Meta 未将其作为公开产品发布（无 App / 无 API / 无 GA）；同源 Muse Video 自 2026-07-07 预览、2026-08 起进入闭门 Beta，截至 2026-10-07 未见正式上线。",
+      "status": "仅研究发布",
+      "score": 7.5,
+      "score_range": "7.0–8.0",
+      "score_basis": "作为研究发布，Movie Gen 在 2024-10 由官方宣称创下行业新基准：支持多种画幅的最长 16 秒 1080p/16fps 视频生成、文本指令视频编辑、个人照片生成保留身份与动作的个性化视频，以及 13B 参数、最长 45 秒的 Movie Gen Audio 音效/配乐模型；其配套的 MovieGenBench 数据集至今仍被 Google 等用于公开评测（Veo 3.1 的官方 benchmark 即基于 MovieGenBench）。但 Meta 从未开放公开 API/App（第三方汇总明确“Public developer access: No”），两年内未成为产品，故落在“优秀研究、未交付”区间给 7.5。",
+      "official_url": "https://ai.meta.com/research/movie-gen/",
+      "url_note": "已实际访问 ai.meta.com/research/movie-gen/：页面至今为 2024 年研究页（含 Blumhouse 创作者计划、论文与博客入口），未出现任何产品入口或 API 文档，可佐证其“仅研究发布”状态。",
+      "free_quota": "不适用（无公开产品，无额度）。",
+      "price": "不适用（无公开产品、无 API、无订阅或按量计费）。",
+      "features": "文本生成 16 秒 1080p 视频、文本指令视频编辑（风格/转场/细粒度编辑）、上传个人照片生成保身份的个性化视频、Movie Gen Audio 生成并延展音效与配乐（最长约 45 秒）；同时开源了长期被业界引用的 MovieGenBench 基准。",
+      "limitations": "Meta 未将其作为公开产品发布：无 App、无 API、无 GA，无开发者访问（第三方汇总明确“Public developer access: No”），官方亦未公布任何产品化路线图。其同源后续视频模型 Muse Video（与 Muse Image 共用同一预训练基座）自 2026-07-07 与 Muse Image 同日预览、2026-08 起进入闭门 Beta，截至 2026-10-07 未见正式上线；Muse Image 则已于 2026-07-07 在 Meta AI/Instagram/WhatsApp 上线。Movie Gen 与 Muse Video 的官方谱系关系未见 Meta 明说，故不作“能力转入”的推断。",
+      "sources": [
+        {"type": "官方站点", "label": "Meta AI《Meta Movie Gen》研究页", "url": "https://ai.meta.com/research/movie-gen/"},
+        {"type": "官方站点", "label": "Meta Newsroom《Introducing Muse Image: Image Generation Built for Your World》（同日预览 Muse Video 并称其在开发中）", "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/"},
+        {"type": "科技媒体", "label": "Versely《Muse Video ranks fifth and nobody can use it》", "url": "https://www.versely.studio/blog/muse-video-ranked-fifth-still-unreleased"},
+        {"type": "科技媒体", "label": "The Next Gen Tech Insider《Meta Debuts Muse Video Model … in Closed Beta》", "url": "https://thenextgentechinsider.com/pulse/meta-debuts-muse-video-model-featuring-native-synchronized-audio-in-closed-beta"},
+        {"type": "用户社区/评测", "label": "Fello AI《Meta AI Video Generator》（含 Movie Gen 规格汇总与“不提供公开开发者访问”）", "url": "https://felloai.com/pt/meta-ai-video-generator/"}
+      ]
+    },
+    {
+      "name": "Gemini Omni Flash（补充）",
+      "name_en": "Gemini Omni Flash (gemini-omni-1.1-flash)",
+      "developer": "Google",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "标注“补充”：Google 在 Veo 之外另推的原生多模态视频生成/编辑模型，主打“对话式改视频”，发布于 Gemini API / Google Cloud / Google Vids。",
+      "status": "公开可用（Preview 预览版）",
+      "score": 8.6,
+      "score_range": "8.2–9.0",
+      "score_basis": "Artificial Analysis 文生视频（含音频）榜显示 Gemini Omni Flash 以 Elo 约 1,244 领先该榜单（该榜当前第一）；Google 官方称其为“从任意输入创建任意内容、先从视频开始”的新模型，可把图像/音频/视频/文本组合输入并生成高质量视频、支持对话式编辑。Google Cloud 于 2026-06-30 将其列为 Preview（Retirement 标注 2026-06-30，疑为滚动预览标识）。因仍处 Preview、且官方文档显示其“图生视频/参考生成：Not supported”，扣分至 8.6。",
+      "official_url": "https://ai.google.dev/gemini-api/docs/omni",
+      "url_note": "已核验 ai.google.dev/gemini-api/docs/omni（官方 API 文档，模型代码 gemini-omni-1.1-flash）、blog.google 的《Introducing Gemini Omni》官方博文，以及 docs.cloud.google.com 的《Gemini Omni Flash Preview》模型卡。",
+      "free_quota": "通过 Google Vids 对任意 Google 账号免费使用（Gemini Omni 1.1 Flash，与 Veo 说明中的每月 10 次免费生成同一口径，具体次数是否共用待确认）；Gemini API 侧额度随 Google AI 订阅/云计费，具体待确认。",
+      "price": "Gemini API 预览期定价未在已核验页面公开（待确认）；随 Google AI Plus $7.99/月、Google AI Pro $19.99/月（约合 ¥142）、Google AI Ultra $99.99–200/月 在 Gemini/Vids 内使用。",
+      "features": "原生多模态输入（文本 + 图片 + 音频 + 视频）、对话式视频生成与编辑、电影级运镜控制、输出带音频视频、与 Gemini 真实世界知识结合；已嵌入 Google Vids 对全体 Google 账号开放。",
+      "limitations": "截至 2026-10 仍标注 Preview；官方模型卡显示其不支持图生视频与参考图生成（仅文生视频）；API 定价与正式 GA 时间未公开。",
+      "sources": [
+        {"type": "官方站点", "label": "Google AI《使用 Gemini Omni Flash 生成和编辑视频》(Gemini API 文档)", "url": "https://ai.google.dev/gemini-api/docs/omni"},
+        {"type": "官方站点", "label": "Google《Introducing Gemini Omni》(The Keyword)", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"},
+        {"type": "官方站点", "label": "Google Cloud《Gemini Omni Flash Preview》模型卡", "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-flash-preview"},
+        {"type": "科技媒体", "label": "Artificial Analysis《Text to Video Leaderboard (With Audio)》", "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video"}
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Google Vids",
+      "reason": "已核实（blog.google / knowledge.workspace.google.com），但它是 Google Workspace 内的视频创作工具，本身不是 AI 视频生成模型；其视频生成能力来自 Veo 3.1 / Gemini Omni Flash，已并入上述 Veo 与 Gemini Omni Flash 条目，不单列，以免与 Veo 条目重复计分。"
+    },
+    {
+      "name": "Runway Aleph 2.0 / Act-Two / Solaris / GWM Worlds 2",
+      "reason": "已核实为 Runway 内部的模型与能力线（runway.com/changelog、runway.com/news/research），属同一产品的功能组成而非独立产品，已并入 Runway 条目的 features，不单列。"
+    },
+    {
+      "name": "Stable Video 4D 2.0 / Stable Virtual Camera",
+      "reason": "已核实为 Stability AI 的视频向模型（stability.ai/news-updates，2025-05 与 2025-03），但均为研究者向资产（4D 资产生成、3D 相机控制多视角），非面向终端创作者的通用视频生成产品，已并入 Stability AI 条目，不单列。"
+    }
+  ],
+  "pending_confirmation": [
+    "Luma AI 官方域名信源缺失：lumalabs.ai、lumalabs.ai/dream-machine、lumalabs.ai/dream-machine/pricing 三个地址均返回“site not supported for access”或“link hit security strategy”，无法直接抓取正文，因此 Luma 条目的信源以“公司官方新闻稿（Business Wire 托管）+ 官方 App Store 应用页 + 科技媒体 + 用户评测”替代，缺一个可核验的官方域名页面（仅 4 条信源、无 lumalabs.ai 原文链接）。价格（Plus $30 / Pro $90 / Ultra $300）与免费档口径均为第三方汇总，需人工再核。",
+    "Luma AI 免费档口径存在三种互相冲突的说法：①每日少量 credits、720p、带水印；②iOS 免费档 250 credits/月；③2026 年中已取消永久免费档、仅保留注册试用 credits。以官方为准前标“待确认”。",
+    "Pika 免费额度口径冲突：官方 pika.art/pricing 显示 Free 为 $0 且“0 credits/月 · packs only”（仅可买 60 credits/$1 的一次性 credit packs），而 pikaslabs.com、pika-labs-ai.com 等第三方站称“免费送 150 credits/月”。上述两站均非官方域名，建议以 pika.art 为准并人工复核。",
+    "“Veo 3.2”是否存在：多个第三方聚合/营销站（topview.ai、olymphill.com）提及 Veo 3.2，但 Google DeepMind 官网（deepmind.google/models/veo/，标题仍为 Veo 3.1）与 Google Cloud 官方模型文档（更新至 2026-10-01，仅列 Veo 3.1 Generate / Veo 3.1 Fast）均未见 3.2，故本文按官方口径取 Veo 3.1，Veo 3.2 标“待确认”。",
+    "Meta Muse Video 是否已全面开放：官方口径为 2026-07-07 预览（“coming soon to creators and Meta AI”），2026-08-19 起进入闭门 Beta（TestingCatalog 等报道），截至检索未见 GA 公告；Muse Video 与 Movie Gen 的谱系关系（是否 Movie Gen 继任）也未由 Meta 官方明说。",
+    "Google AI Ultra 的档位与价格：官方公告称 2026-05 将顶配 Ultra 由 $250/月降至 $200/月，但 Google One 多地区页面另显示 Ultra “From €99.99/月”，疑存在 5x / 20x 两个 Ultra 档，具体档位划分与各档视频额度未完全核清。",
+    "Adobe Firefly 免费计划的具体每日生成次数未在已核验页面给出；另有第三方资料称 2026-01-23 至 2026-03-16 期间部分高档位享“不限量图像生成”促销，视频是否参与促销未确认。",
+    "Stability AI 企业级视频授权报价、以及 Stable Video 4D 2.0 / Stable Virtual Camera 是否已进入收费产品形态，均未核到，标“待确认”。",
+    "Gemini Omni Flash 的 Gemini API 正式定价、GA 时间，与其在 Google Vids 的免费额度是否与 Veo 的每月 10 次共用，均未核到。",
+    "OpenAI 在 Sora 关停后是否有尚未公布的视频生成继任产品：官方帮助中心与官方博客均称无继任产品（“lists no successor product”），如后续有发布需更新本表。",
+    "Sora 关停前的精确套餐额度口径（ChatGPT Plus 1,000 credits/月、Pro 10,000 credits/月）来自第三方（vc.ru）转述 OpenAI 帮助中心《Using Credits for Flexible Usage》，原页面未能直接打开核验。"
+  ]
+}
