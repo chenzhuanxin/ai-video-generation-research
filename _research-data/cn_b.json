@@ -1,0 +1,240 @@
+{
+  "region": "cn",
+  "generated_at": "2026-10-07",
+  "products": [
+    {
+      "name": "MiniMax 海螺视频（海螺AI）",
+      "name_en": "MiniMax Hailuo / Hailuo AI",
+      "developer": "上海稀宇科技 MiniMax（国内运营主体：上海极智无界科技有限公司）",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "网页/App 端 AIGC 视频创作平台：文生视频、图生视频、多主体（全能）参考、运镜控制与局部编辑；2026 年主推 MiniMax H3 原生多模态模型，另有 Hailuo 2.3 / 2.3-Fast。",
+      "status": "公开可用",
+      "score": 8.6,
+      "score_range": "8.2–9.0",
+      "score_basis": "第一梯队。Hailuo 02/2.3 系列曾在 Artificial Analysis 视频竞技场长期位列前茅，杂技/复杂动作与运动一致性口碑强；2026 年 H3 主打原生多模态理解与生成、精准编辑与运镜控制。短板是会员价格偏高（尊享会员 ¥1,399/月）。五星依据：公开基准（Artificial Analysis 视频榜）+科技媒体实测（腾讯新闻《实测7款主流AI视频工具》称其为第一梯队）+应用商店口碑（App Store 4.8 分 / 1.6 万个评分）。",
+      "official_url": "https://hailuoai.com/",
+      "url_note": "2026-10-07 实际访问核验：hailuoai.com 为国内站（页面标题『海螺视频：每个想法都是一部大片』，中文界面、人民币计价，与 App『海螺AI』同一产品）。国际站为 hailuoai.video（英文界面、美元计价，2026-10 同样上线 MiniMax H3），国际版定价由海外批次核实。",
+      "free_quota": "国内免费用户不发放会员贝壳/积分，仅不定期新人活动（具体口径待确认）；国际站曾对新用户发放一次性免费额度（约 200 积分、3 天有效）。",
+      "price": "人民币：基础会员 ¥68/月（季 ¥183、年 ¥649）、标准会员 ¥248/月、尊享会员 ¥1,399/月；贝壳充值包 500 ¥35、1,000 ¥70、2,000 ¥140、3,000 ¥210、5,000 ¥350、10,000 ¥699（App Store 内购，2026-10）。API 侧 MiniMax Hailuo 2.3 Fast 768P/6s 为 1.35 元/条、Hailuo 2.3 1080P/6s 为 3.5 元/条。媒体另称会员共六档、至尊版高达 ¥2,299/月（待核实）。",
+      "features": "原生多模态视频生成，支持文生/图生视频、多主体参考、运动控制（推拉摇移/镜头跟随）与画面编辑，H3 定位商用级多场景成片。",
+      "limitations": "会员档位价格偏高；H3 上线时间短，长镜头运动一致性、文字渲染与可控性仍需更多第三方验证。",
+      "sources": [
+        {"type": "官方站点", "label": "海螺视频官网（国内站）", "url": "https://hailuoai.com/"},
+        {"type": "官方站点", "label": "MiniMax 开放平台定价（Hailuo 2.3 视频模型人民币单价）", "url": "https://www.minimaxi.com/setting/get_app_settings?setting_key=pricing_page_text"},
+        {"type": "应用商店", "label": "App Store《海螺AI - 视频创作工具》（内购与评分）", "url": "https://apps.apple.com/cn/app/id6742046771"},
+        {"type": "科技媒体", "label": "腾讯新闻《一秒到底花多少钱？实测7款主流AI视频工具》", "url": "http://news.qq.com/rain/a/20260425A04E8B00"},
+        {"type": "科技媒体", "label": "京报网《Token定价相差数倍！大模型行业亟待建立计量标尺》", "url": "https://xinwen.bjd.com.cn/content/s6a6cba14e4b03fa51a825261.html"}
+      ]
+    },
+    {
+      "name": "Vidu（生数科技）",
+      "name_en": "Vidu",
+      "developer": "北京生数科技有限公司（ShengShu Technology）",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强", "数字人视频"],
+      "type_note": "网页/App/API 一体化 AI 视频平台：文生视频、图生视频、首尾帧控制、多主体参考与音画同出；2026 年推出 Vidu Q3（16 秒声画同出）与 Vidu S2（S2-Avatar 实时数字角色 / S2-Editing 视频流实时编辑）。",
+      "status": "公开可用",
+      "score": 8.1,
+      "score_range": "7.6–8.6",
+      "score_basis": "优秀。官方称 Vidu Q1 曾在 VBench-1.0/2.0 双榜超越 Runway、Sora、可灵；Q3 实现单次 16 秒音画同出、智能切镜与多语言，被量子位评为『中国AI视频新王者』；多主体参考一致性在创作者社区（2D 动画/漫剧）口碑突出，官方称在 Artificial Analysis、SuperCLUE 参考生榜单领先。短板是写实复杂运动与文字渲染略逊头部、参考生成本约 1 元/秒。依据：公开基准（VBench/SuperCLUE）+科技媒体（36氪、量子位）+创作社区反馈。",
+      "official_url": "https://www.vidu.cn/",
+      "url_note": "2026-10-07 实际访问核验：vidu.cn 为国内站（页面标题『Vidu AI - 全球领先的AI内容生产平台』，中文界面、人民币计价，客服邮箱 support@vidu.cn）；国际站为 vidu.com（美元计价）；企业官网为 shengshu.com。",
+      "free_quota": "新用户注册赠送体验积分；每日登录可领积分；支持『错峰模式』免费生成（非高峰时段）。具体额度以站内实际展示为准。",
+      "price": "人民币：Vidu 标准版 ¥59、Vidu 专业版 ¥219、创作者计划轻享版 ¥399、创作者计划尊享版（捆绑套餐）¥1,388；积分购买档位 ¥3.8 / 6.8 / 12.8 / 70 / 200 / 728（App Store 内购，2026-10）。国际 API 平台积分 $0.005/分。",
+      "features": "多主体参考生视频一致性突出，支持音画同出、智能切镜、首尾帧控制与实时交互，动漫/国风与短剧漫剧表现优秀。",
+      "limitations": "写实复杂运动与文字渲染略逊第一梯队；国内会员与积分档位跨度大、成本核算复杂。",
+      "sources": [
+        {"type": "官方站点", "label": "Vidu 国内站", "url": "https://www.vidu.cn/"},
+        {"type": "官方站点", "label": "Vidu 定价与积分说明（国内）", "url": "https://www.vidu.cn/pricing"},
+        {"type": "官方站点", "label": "生数科技 Vidu Q3 介绍页", "url": "https://www.shengshu.com/zh/vidu-q3/"},
+        {"type": "应用商店", "label": "App Store《Vidu AI》（内购清单）", "url": "https://apps.apple.com/cn/app/vidu-ai/id6761521089"},
+        {"type": "科技媒体", "label": "36氪《生数科技推出Vidu S2实时互动与视频编辑双模型》", "url": "https://m.36kr.com/newsflashes/3985589466938114"},
+        {"type": "科技媒体", "label": "量子位（生数科技/Vidu 报道专题）", "url": "https://www.qbitai.com/tag/%E7%94%9F%E6%95%B0%E7%A7%91%E6%8A%80"}
+      ]
+    },
+    {
+      "name": "PixVerse（爱诗科技，国内版「拍我AI」）",
+      "name_en": "PixVerse / 拍我AI",
+      "developer": "爱诗科技（AIsphere，官网 aishiai.com）",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强"],
+      "type_note": "生成式视频平台：文生/图生视频、多镜头、视频续写（Extend）、转场与运镜模板；2026 年主推 PixVerse V6（1080p 生成+原生音频），并有 R1/R2 实时交互世界模型、C1 影视创作引擎。国内品牌为「拍我AI」。",
+      "status": "公开可用",
+      "score": 8.3,
+      "score_range": "7.8–8.8",
+      "score_basis": "优秀偏上。爱范儿报道 PixVerse V5.6 在 Artificial Analysis 视频生成排行榜位列全球第 2；V6（2026-03-30 发布）支持 15 秒 1080p、多镜头与原生音频；R1/R2 实时世界模型（可交互生成）为其差异化亮点，机器之心专文评述其世界模型落地。短板是复杂指令遵循与文字渲染不及 Seedance 2.0 等头部。依据：公开基准（Artificial Analysis）+科技媒体（爱范儿、机器之心、腾讯新闻实测）+应用商店（拍我AI）。",
+      "official_url": "https://pai.video/",
+      "url_note": "2026-10-07 实际访问核验：爱诗科技国内版产品为「拍我AI」，官方站点 pai.video（HTTP 200）、开放平台 platform.pai.video（HTTP 200，标题『拍我AI 开放平台』）；国际站为 pixverse.ai（自动跳转 pixverse.ai/zh）。注意：任务清单中的 pixverse.cn 域名当前 DNS 无法解析，未作为官方入口采用（详见 pending_confirmation）。",
+      "free_quota": "注册即赠初始积分并每日发放免费积分（可生成文生/图生视频）；免费额度通常带水印、分辨率受限（国际版曾为 360p、注册赠 60+每日 60 积分）。国内「拍我AI」免费每日具体口径待核实。",
+      "price": "人民币（国内「拍我AI」，App Store 内购 2026-10）：标准会员（月）¥79、专业会员（月）¥239、尊享会员（月）¥459、标准会员（年）¥758，积分包 ¥35 / ¥140 等档位。国际站按积分计量（V6 1080p 约 18 积分/秒、含音频 23 积分/秒），Team Plan 为 USD 79/席位/月。",
+      "features": "V6 支持 15 秒 1080p 多镜头与原生音频，模板化创作门槛低；R1/R2 实时交互世界模型可边输入边生成。",
+      "limitations": "免费额度有水印与分辨率限制；国内免费口径不透明；复杂指令遵循与文字渲染弱于头部模型。",
+      "sources": [
+        {"type": "官方站点", "label": "拍我AI（PixVerse 国内版）", "url": "https://pai.video/"},
+        {"type": "官方站点", "label": "拍我AI 开放平台", "url": "https://platform.pai.video/"},
+        {"type": "官方站点", "label": "PixVerse 国际站（PixVerse V6 介绍）", "url": "https://pixverse.ai/zh/model/pixverse-v6"},
+        {"type": "应用商店", "label": "App Store《拍我AI - AI视频& PixVerse正版》内购", "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E6%88%91ai-ai%E8%A7%86%E9%A2%91-pixverse%E6%AD%A3%E7%89%88/id6740239289"},
+        {"type": "科技媒体", "label": "机器之心《都在问世界模型怎么落地，PixVerse把答案做成了「好玩」》", "url": "https://www.jiqizhixin.com/articles/2026-08-24-13"},
+        {"type": "科技媒体", "label": "腾讯新闻《pixverse“国内版”一手实测来了》", "url": "http://news.qq.com/rain/a/20250607A04A2S00"}
+      ]
+    },
+    {
+      "name": "智象未来 HiDream（含 vivago / 帧赞）",
+      "name_en": "HiDream.ai",
+      "developer": "智象未来（合肥）信息技术有限公司 / 智象元一（HiDream.ai）",
+      "type": ["文生视频", "图生视频", "视频编辑·延展·增强", "数字人视频"],
+      "type_note": "原生全模态大模型企业，已形成图像+视频双模型布局：2026-09-15 发布首个原生全模态视频生成模型 HiDream-O1-Video-1.0（HD-V1，支持文/图/视频多模态输入、5–20 秒 1080P）；C 端有长视频创作智能体 vivago R1、专业级 AI 影视创作平台「帧赞」、营销平台 HiBurst。",
+      "status": "公开可用",
+      "score": 7.4,
+      "score_range": "6.9–7.9",
+      "score_basis": "良好偏上。图像侧 HiDream-I1 开源文生图模型 2025-04 登顶 Artificial Analysis 开源榜；视频侧 HD-V1（2026-09）官方称在两项国际第三方评测进入第一梯队，vivago R1 主打「任意时长、多智能体协作」的长视频生成，全球注册用户称 5000 万。短板是视频模型推出晚、第三方独立评测与社区实测样本少，实力尚待充分验证。依据：官方/媒体披露基准（IT之家、新华网）+应用商店/社区（vivago 用户内容）+人像/画质口碑。",
+      "official_url": "https://hidreamai.com/",
+      "url_note": "2026-10-07 实际访问核验：hidream.ai 跳转至 hidreamai.com（标题『HiDream.ai - Where AI Meets Creativity』，中英双语，企业官网）；C 端产品官网 vivago.ai（跳转 vivago.ai/agent/home，标题『vivago AI Agent | Create AI Videos & Images』，含国内/海外站入口）。信源覆盖说明：官方站点+科技媒体+用户社区三类；其 C 端产品未见国内应用商店独立条目，故以用户社区补齐。",
+      "free_quota": "vivago 采用免费试用+订阅+积分付费；官方称免费版每日登录赠积分（境外站约每日 100 积分，可生成 5 秒带水印视频），国内「智小象」免费额度待核实。",
+      "price": "国内站（第三方站点口径，待官方核实）：智小象 Basic ¥63/月、Plus ¥175/月。海外站 vivago：Basic $7.9–11.9/月、Plus $19.9–29.9/月、Pro $59.9–69.9/月（年付约五折）；单条图生视频 1080P/5s 约 40 积分。",
+      "features": "原生全模态（文/图/视频）统一架构，长视频智能体 vivago R1 支持任意时长连续生成与对话式迭代，影视级 4K/长镜头能力。",
+      "limitations": "视频模型 2026-09 才发布，独立评测与社区实测样本少；国内 C 端定价与免费额度透明度低。",
+      "sources": [
+        {"type": "官方站点", "label": "HiDream.ai 官网", "url": "https://hidreamai.com/"},
+        {"type": "官方站点", "label": "vivago.ai（视频创作 C 端产品，含定价）", "url": "https://vivago.ai/use-cases/small-business-marketing.html"},
+        {"type": "科技媒体", "label": "IT之家《智象首款物理规律导向视频模型HiDream-O1-Video-1.0亮相》", "url": "https://it.ithome.com/archiver/1/002/993.htm"},
+        {"type": "科技媒体", "label": "新华网《智象未来亮相2026世界人工智能大会 发布长视频创作智能体》", "url": "http://www.news.cn/tech/20260719/5e9da195bf374535800f50c8d766699d/c.html"},
+        {"type": "用户社区", "label": "抖音创作者实测（vivago R1 / 帧赞）", "url": "https://www.iesdouyin.com/share/video/7690498083192311066"}
+      ]
+    },
+    {
+      "name": "美图 WHEE",
+      "name_en": "WHEE",
+      "developer": "美图公司（Meitu Technology Co., Ltd.），基于美图奇想大模型 MiracleVision",
+      "type": ["文生视频", "图生视频"],
+      "type_note": "一站式 AI 视觉创作平台（App/网页），核心为文生图/图生图与修图；视频能力为「AI生视频」（文生视频+图生视频）、「转Live」（静态图转 Live Photo）与视频超清。",
+      "status": "公开可用",
+      "score": 6.3,
+      "score_range": "5.8–6.8",
+      "score_basis": "中等。属美图影像工具矩阵中的创作/物料平台，视频生成是其附属能力而非独立前沿视频大模型，缺少公开 VBench/Artificial Analysis 视频基准成绩。优势是与修图、超清、追星物料模板等场景打通、上手门槛低；短板是视频时长/一致性与专业视频平台差距明显。依据：应用商店功能与评分（App Store 3.8 分，1117 个评分）+科技媒体/工具站介绍+官网协议。",
+      "official_url": "https://www.whee.com/",
+      "url_note": "2026-10-07 实际访问核验：whee.com 为 WHEE 官方站（页面标题『WHEE-追星人都在用的神图制造机』，中英多语）；会员协议见 whee.com/agreement/vip-service.html。",
+      "free_quota": "新用户注册赠送美豆用于生成（第三方站点称约 20 美豆，单图约 2 美豆）；每月赠送美豆仅当月有效，用尽需充值或续费会员（官方会员协议口径）。",
+      "price": "人民币：WHEE VIP 连续包月 ¥58（App Store 内购，2026-10）、WHEE 超值月卡 ¥18/月、超清周卡 ¥8.8–9.9；美豆充值 42 美豆 ¥6、126 美豆 ¥18。注：App Store 文案另写『连续包月 ¥18、连续包年 ¥168』，与内购档位不一致，需以官网当期为准（待确认）。历史第三方口径为 ¥58/月含 1800 美豆。",
+      "features": "把视频生成与超清修复、一句话修图、追星物料模板打通，低门槛一站式出片。",
+      "limitations": "视频生成非独立前沿模型，时长/运动一致性有限；会员价格口径不一致，免费额度小。",
+      "sources": [
+        {"type": "官方站点", "label": "WHEE 官网", "url": "https://www.whee.com/"},
+        {"type": "官方站点", "label": "WHEE VIP 服务协议（美豆赠送规则）", "url": "https://www.whee.com/agreement/vip-service.html"},
+        {"type": "应用商店", "label": "App Store《WHEE - 追星物料创作平台》（功能与内购）", "url": "https://apps.apple.com/cn/app/whee-%E8%BF%BD%E6%98%9F%E7%89%A9%E6%96%99%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0/id1150322669"},
+        {"type": "科技媒体", "label": "太平洋科技 AI 产品库《WHEE 网页版入口、使用教程》", "url": "https://g.pconline.com.cn/ai/product/381.html"},
+        {"type": "用户社区", "label": "36氪企服点评（WHEE 与即梦对比，含用户评价）", "url": "https://m.36dianping.com/vs/rygw.html"}
+      ]
+    },
+    {
+      "name": "美图开拍（开拍App）",
+      "name_en": "Kaipai (Meitu)",
+      "developer": "美图公司",
+      "type": ["数字人视频"],
+      "type_note": "AI 口播/营销视频创作工具（App/网页/iPad/电脑版）：数字人出镜、AI 脚本与提词器、网感模板一键成片、智能剪辑与素材匹配，2026 年上线数字人 2.0 与「开拍AI助手」并接入 Seedance 2.0。",
+      "status": "公开可用",
+      "score": 6.8,
+      "score_range": "6.3–7.3",
+      "score_basis": "中等偏上。垂直口播场景深耕、完整工作流（脚本→提词→数字人→成片），2026-05 更新数字人 2.0 提升动作连贯性/微表情/实景融合，入选中国经济网『2026 AI视频创作工具TOP10』；截至 2026-05 累计内容创作数 4.46 亿、超 300 万月活创作者、ARR 过亿。短板是数字人仍难完全替代真人出镜、定位为营销/口播工具而非通用视频生成。依据：科技媒体（界面新闻、新华网、中国经济网、京报网）+应用商店+创作者社区。",
+      "official_url": "https://www.kaipai.com/",
+      "url_note": "2026-10-07 实际访问核验：kaipai.com 为开拍官方站（标题『开拍 - 让口播视频自带网感』），定价页 kaipai.com/pricing 可访问；另有入口 kaipai.meitu.com（美图域名）。",
+      "free_quota": "免费版 ¥0：网感模板每日 1 次，AI 消除/画质修复/视频降噪/无损放大等仅 5 秒预览，导出带水印，部分免费素材；脚本生成每日有限免费次数。",
+      "price": "人民币：VIP 连续包月 ¥30（原价 ¥45）/连续包年 ¥238，含 160 美豆/月；SVIP 首月 ¥69、次月起 ¥89/月，或 ¥699/年，含 660 美豆/月；数字人时长充值 1 分钟 ¥5、5 分钟 ¥18、30 分钟 ¥98、60 分钟 ¥188。",
+      "features": "面向口播/营销场景的一站式工作流，数字人 2.0 出镜、网感模板一键成片、智能提词与眼神矫正，零基础可 1 分钟出片。",
+      "limitations": "数字人真实感仍不及真人实拍；定位营销/口播工具，通用视频生成能力有限。",
+      "sources": [
+        {"type": "官方站点", "label": "开拍官网定价页", "url": "https://www.kaipai.com/pricing"},
+        {"type": "官方站点", "label": "美图公司新闻《2026美图影像节发布8款AI产品》", "url": "https://www.meitu.com/zh/media/438"},
+        {"type": "应用商店", "label": "App Store《开拍 - 0基础1分钟做网感口播视频》", "url": "https://apps.apple.com/cn/app/%E5%BC%80%E6%8B%8D-0%E5%9F%BA%E7%A1%801%E5%88%86%E9%92%9F%E5%81%9A%E7%BD%91%E6%84%9F%E5%8F%A3%E6%92%AD%E8%A7%86%E9%A2%91/id6446305602"},
+        {"type": "科技媒体", "label": "界面新闻《持续优化模型能力，开拍再升级并接入Seedance 2.0》", "url": "https://www.jiemian.com/article/14250196.html"},
+        {"type": "科技媒体", "label": "新华网《AI工具深入产业一线，开拍助力实体从业者跨越数字门槛》", "url": "https://www.news.cn/info/20260727/39051d0879cf4a3f8361d7d24737cb19/c.html"},
+        {"type": "用户社区", "label": "抖音创作者口碑（开拍数字人/口播）", "url": "https://www.iesdouyin.com/share/video/7652578603384786230"}
+      ]
+    },
+    {
+      "name": "潞晨科技 Open-Sora",
+      "name_en": "Open-Sora (HPC-AI Tech)",
+      "developer": "潞晨科技 HPC-AI Tech（ColossalAI 团队）",
+      "type": ["文生视频", "图生视频"],
+      "type_note": "开源文生/图生视频模型与训练代码仓库（非托管 C 端产品）；团队另有面向用户的视频生成平台 Video Ocean（见补充条目）。",
+      "status": "仅研究发布",
+      "score": 6.4,
+      "score_range": "5.9–6.9",
+      "score_basis": "中等。开源低成标杆：以约 20 万美元（224 张 GPU）训练出商业级 11B 参数视频模型，性能官方称直追 HunyuanVideo 与 30B 的 Step-Video；Apache-2.0 许可利于商用二次开发；GitHub 约 2.99 万 star（2026-10-07 GitHub API）。短板是生成质量与运动一致性落后于闭源第一梯队，且自 2025-03 的 2.0 后未见新版本，2026 年基本停滞。依据：开源基准（SuperCLUE 榜 Open-Sora-v2 576p 498.7 分）+科技媒体（OSCHINA、腾讯云开发者社区）+GitHub 社区活跃度。",
+      "official_url": "https://github.com/hpcaitech/Open-Sora",
+      "url_note": "2026-10-07 经 GitHub API 核验：仓库 hpcaitech/Open-Sora，star 29,857、fork 3,090，许可 Apache-2.0，最近提交 2026-04-09。注意 GitHub 网页因 robots.txt 无法直接抓取，数据取自 api.github.com。最新 GitHub Release tag 为 v1.3（2025-02-21），而 Open-Sora 2.0（11B，2025-03-12，arXiv 2503.09642）以论文+权重形式发布，未打 Release tag。信源覆盖说明：官方站点+科技媒体+公开基准三类；开源项目无应用商店/用户社区类信源。",
+      "free_quota": "完全免费开源（Apache-2.0），代码与权重公开，可自行部署；无官方托管免费额度。",
+      "price": "开源免费（Apache-2.0）；商用、微调、再分发均允许，仅需保留版权与许可声明。无官方 SaaS 定价。",
+      "features": "Apache-2.0 全量开源（代码+权重+训练文档），训练成本极低、支持二次开发与本地部署。",
+      "limitations": "画质/运动一致性落后闭源头部；自 2025-03 的 2.0 后未见新版本，2026 年迭代停滞；自部署对显存要求高。",
+      "sources": [
+        {"type": "官方站点", "label": "GitHub - hpcaitech/Open-Sora", "url": "https://github.com/hpcaitech/Open-Sora"},
+        {"type": "官方/论文", "label": "Open-Sora 2.0 技术报告（arXiv 2503.09642）", "url": "https://arxiv.org/pdf/2503.09642v2"},
+        {"type": "科技媒体", "label": "OSCHINA《潞晨科技发布 Open-Sora 2.0》", "url": "https://www.oschina.net/comment/news/338553"},
+        {"type": "科技媒体", "label": "腾讯云开发者社区《开源11B视频生成模型，表现媲美主流闭源模型》", "url": "https://cloud.tencent.com/developer/news/2302190"},
+        {"type": "公开基准", "label": "SuperCLUE 视频生成榜（Open-Sora-v2 576p，498.7）", "url": "https://superclueai.com/arena?tab=board&type=video"}
+      ]
+    },
+    {
+      "name": "阶跃星辰 Step-Video（跃问/阶跃AI）",
+      "name_en": "Step-Video (StepFun)",
+      "developer": "阶跃星辰（上海阶跃星辰智能科技有限公司，StepFun）",
+      "type": ["文生视频", "图生视频"],
+      "type_note": "开源视频生成模型家族：Step-Video-T2V（30B，文生视频）与 Step-Video-TI2V（30B，文本驱动图生视频）；消费端曾通过「跃问/阶跃AI」App 与 yuewen.cn 提供在线生成入口。",
+      "status": "仅研究发布",
+      "score": 6.7,
+      "score_range": "6.2–7.2",
+      "score_basis": "中等偏上。Step-Video-T2V 发布时为最大开源视频模型（30B），采用高压缩 VAE、中英双语提示词、基于视频的 DPO，配套发布 Step-Video-T2V-Eval 基准，MIT 许可（可商用）；Step-Video-TI2V 在动漫风 TI2V 上表现突出。短板是自 2025-03 后无新版本，阶跃星辰 2026 年开放平台重心转向语言/语音/图像模型，视频生成在线入口当前状态不明确。依据：arXiv 技术报告+开源基准（SuperCLUE）+第三方收录（AI Wiki）。",
+      "official_url": "https://github.com/stepfun-ai/Step-Video-T2V",
+      "url_note": "2026-10-07 经 GitHub API 核验：Step-Video-T2V（star 3,185 / fork 339，MIT，最近提交 2025-03-17）、Step-Video-TI2V（star 374 / fork 34，MIT，最近提交 2025-03-20）。注意 github.com/stepfun-ai/Step-Video 不存在（404），仓库名带 T2V/TI2V 后缀。阶跃开放平台 platform.stepfun.com 当前模型文档以语言/语音/图像为主，未见视频模型条目。信源覆盖说明：官方站点+官方论文+科技媒体+第三方收录；开源项目无应用商店/用户社区类信源。",
+      "free_quota": "模型开源免费（MIT，可商用与微调）；官方在线入口（跃问/yuewen.cn）是否仍提供免费视频生成待确认（以登录后为准）。",
+      "price": "开源免费（MIT）；无官方视频生成 SaaS 定价；如需算力可自部署或走第三方云 API。",
+      "features": "30B 开源视频模型，MIT 许可可商用，中英双语提示词、配套 TI2V 任务基准，动漫风 TI2V 表现优秀。",
+      "limitations": "自 2025-03 后无新版本、迭代停滞；官方在线生成入口现状不明确；自部署需要 80GB+ 显存。",
+      "sources": [
+        {"type": "官方站点", "label": "GitHub - stepfun-ai/Step-Video-T2V", "url": "https://github.com/stepfun-ai/Step-Video-T2V"},
+        {"type": "官方站点", "label": "阶跃星辰开放平台文档（模型能力总览）", "url": "https://platform.stepfun.com/docs/zh/guides/models/overview"},
+        {"type": "官方/论文", "label": "Step-Video-T2V Technical Report（arXiv 2502.10248）", "url": "https://arxiv.org/pdf/2502.10248"},
+        {"type": "第三方收录", "label": "AI Wiki - Step-Video 词条", "url": "https://www.aiwiki.ai/wiki/step_video"},
+        {"type": "科技媒体", "label": "RECATOOLS《StepFun Yuewen 阶跃星辰 跃问》工具评测", "url": "https://recatools.com/ai-directory/stepfun-yuewen/"}
+      ]
+    },
+    {
+      "name": "补充：Video Ocean（潞晨科技）",
+      "name_en": "Video Ocean",
+      "developer": "潞晨科技 HPC-AI Tech",
+      "type": ["文生视频", "图生视频"],
+      "type_note": "补充条目：潞晨科技基于开源项目 Open-Sora 推出的 AI 视频生成平台（web 端），支持文生视频、图生视频与角色生视频，含视频续写。",
+      "status": "公开可用",
+      "score": 6.5,
+      "score_range": "6.0–7.0",
+      "score_basis": "中等。作为 Open-Sora 的产品化平台，V2.0 官方称可在 5–10 秒输出 2K/4K HDR 电影级视频、支持最长 20 秒续写，一度以限时免费+低价策略传播；但公开第三方横评与持续更新证据有限，独立验证不足。依据：科技媒体（牛透社、OpenI）+工具站收录。",
+      "official_url": "https://video.luchentech.com/zh-CN",
+      "url_note": "官方入口 video.luchentech.com（潞晨科技域名）；由 Open-Sora 开源项目（GitHub 约 2.99 万 star）产品化而来。当前是否仍需测试申请、以及最新价格档位以官网为准（待确认）。信源覆盖说明：仅官方站点+科技媒体两类来源，未检索到可靠应用商店/用户社区类信源。",
+      "free_quota": "历史上对注册用户免费开放体验额度（含测试期免费）；当前免费额度口径待确认。",
+      "price": "价格待确认：曾宣传限时免费，V2.0 官方称定价约为同类产品 1/10；具体套餐以官网为准。",
+      "features": "基于 Open-Sora 的低成本视频生成，支持文生/图生/角色生视频与视频续写，主打低价与长时长。",
+      "limitations": "独立第三方评测少、更新与商业化信息不透明；与闭源头部相比画质与一致性有差距。",
+      "sources": [
+        {"type": "官方站点", "label": "Video Ocean 官网", "url": "https://video.luchentech.com/zh-CN"},
+        {"type": "科技媒体", "label": "牛透社《潞晨科技发布 Video Ocean V2.0》", "url": "https://www.niutoushe.com/lives/yjmwyctjgc1383"},
+        {"type": "科技媒体", "label": "OpenI《一键生成电影级特效！Video Ocean V2.0 火爆全网》", "url": "https://openi.cn/293268.html"}
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "像素蛋糕 PixCake（厦门真景科技有限公司）",
+      "reason": "在本批次「智象未来 HiDream」核实过程中一并核查：像素蛋糕（PixCake）为专业级 AI 修图软件，归属厦门真景科技有限公司（Xiamen Truesight Technology / 厦门像甜科技），仅提供图像精修，无视频生成能力；亦与智象未来（HiDream.ai）无隶属关系。任务清单中『智象未来图像模型知名（Pixeling 像素蛋糕）』的归属表述有误，故不纳入 AI 视频产品范围。"
+    }
+  ],
+  "pending_confirmation": [
+    "PixVerse/爱诗科技：任务清单给出的国内站域名 pixverse.cn 在 2026-10-07 实测 DNS 无法解析（未能解析此远程名称），爱诗科技国内版产品实为「拍我AI」（官方站 pai.video、开放平台 platform.pai.video，均 HTTP 200）。请确认 pixverse.cn 的现状/是否曾为官方域名。",
+    "海螺AI 国内免费用户是否完全无免费积分/贝壳、以及会员完整档位与最新人民币单价：官网会员页未能直接抓取，App Store 内购（基础 ¥68、标准 ¥248、尊享 ¥1,399）与媒体口径（六档、至尊版 ¥2,299/月；年费 2,352/5,549/10,788 元）存在差异，需以官网当期为准。",
+    "WHEE 会员价格口径不一致：App Store 内购显示『WHEE VIP 连续包月 ¥58』与『WHEE 超值月卡 ¥18』，同页描述文案却写『连续包月 ¥18、连续包年 ¥168』，历史第三方口径为 ¥58/月含 1800 美豆、每月赠送 360 美豆。需以官网当期公示为准。",
+    "拍我AI（PixVerse 国内版）免费额度具体口径（每日/初始免费积分、分辨率与水印限制）未在官方页面明确披露，待核实。",
+    "阶跃星辰 Step-Video：跃问 App / yuewen.cn 在 2026-10 是否仍公开提供视频生成入口未确认；阶跃开放平台当前模型文档以语言/语音/图像模型为主，未见视频模型。",
+    "智象未来 HiDream 视频产品的 C 端入口与定价：国内「智小象」人民币定价（Basic ¥63/月、Plus ¥175/月）仅见第三方站点口径，官方页面未确认；vivago 国内站与海外站价格体系需进一步核对。",
+    "任务描述中『智象未来图像模型知名（Pixeling 像素蛋糕）』存在归属错误：像素蛋糕（PixCake）实为厦门真景科技有限公司产品，与 HiDream 无关（已列入 excluded）。",
+    "Open-Sora 版本口径：GitHub Release tag 停在 v1.3（2025-02-21），Open-Sora 2.0（11B，2025-03-12，arXiv 2503.09642）以论文+权重形式发布而未打 Release tag，仓库最近提交为 2026-04-09。是否存在 2.x/3.x 后续版本待确认。",
+    "本批次 8 个产品均核实存在视频生成相关能力，故均纳入 products；仅潞晨科技 Video Ocean 作为『补充』新增。如需扩充清单外产品，可另行开展。"
+  ]
+}
